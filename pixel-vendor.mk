@@ -94,4 +94,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
-    DevicePersonalizationPrebuiltPixel2020
+    DevicePersonalizationPrebuiltPixel2020 \
+    RecorderPrebuilt
