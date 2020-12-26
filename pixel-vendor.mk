@@ -95,5 +95,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
+    AndroidMigratePrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     SafetyHubPrebuilt
