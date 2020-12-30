@@ -84,6 +84,9 @@
     <!-- Enable round icons by default. -->
     <bool name="config_useRoundIcon">true</bool>
 
+    <!-- SafetyHub permissions -->
+    <string name="config_emergency_dialer_package">com.google.android.apps.safetyhub</string>
+
     <!-- Corner radius for bottom sheet system dialogs -->
     <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
 
