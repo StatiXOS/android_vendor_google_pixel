@@ -90,6 +90,6 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
     AndroidMigratePrebuilt \
-    DevicePersonalizationPrebuiltPixel2020 \
+    DevicePersonalizationPrebuiltPixel2021 \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
