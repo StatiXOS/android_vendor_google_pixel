@@ -92,4 +92,5 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     SafetyHubPrebuilt \
+    SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
