@@ -92,4 +92,5 @@ PRODUCT_PACKAGES += \
     AndroidMigratePrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     SafetyHubPrebuilt \
+    SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
