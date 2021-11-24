@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
+    vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
+    vendor/google/pixel/proprietary/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
     vendor/google/pixel/proprietary/product/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsketchology_native.so \
     vendor/google/pixel/proprietary/product/media/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
     vendor/google/pixel/proprietary/product/media/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
@@ -89,7 +91,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
-    AndroidMigratePrebuilt \
-    DevicePersonalizationPrebuiltPixel2020 \
+    DevicePersonalizationPrebuiltPixel2021 \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
