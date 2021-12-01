@@ -81,6 +81,38 @@
     -->
     <string name="config_defaultTextClassifierPackage" translatable="false">com.google.android.as</string>
 
+    <!-- The package name for the system's smartspace service.
+         This service returns smartspace results.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         If no service with the specified name exists on the device, smartspace will be disabled.
+         Example: "com.android.intelligence/.SmartspaceService"
+    -->
+    <string name="config_defaultSmartspaceService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService</string>
+
+    <!-- The component name for the system-wide captions service.
+         This service must be trusted, as it controls part of the UI of the volume bar.
+         Example: "com.android.captions/.SystemCaptionsService"
+    -->
+    <string name="config_defaultSystemCaptionsService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
+
+    <!-- The package name for the system's translation service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         If no service with the specified name exists on the device, translation wil be
+         disabled.
+         Example: "com.android.translation/.TranslationService"
+    -->
+    <string name="config_defaultTranslationService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiTranslationService</string>
+    
+    <!-- The package name for the default wellbeing app.
+         This package must be trusted, as it has the permissions to control other applications
+         on the device.
+         Example: "com.android.wellbeing"
+     -->
+    <string name="config_defaultWellbeingPackage" translatable="false">com.google.android.apps.wellbeing</string>
+    
+    <!-- Package name that provides Emergency Dialer -->
+    <string name="config_emergency_dialer_package" translatable="false">com.google.android.apps.safetyhub</string>
+
     <!-- Enable round icons by default. -->
     <bool name="config_useRoundIcon">true</bool>
 
